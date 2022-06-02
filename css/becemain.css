@@ -1,0 +1,469 @@
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+img{
+    image-rendering: pixelated;
+}
+
+body{
+    margin: 0;
+}
+.navigatebar{
+    font-size: larger;
+    align-items: center;
+    padding: 0;
+    background-image: linear-gradient(180deg, rgba(138,225,250,0.2088585434173671) 0%, rgba(45,77,253,0.05646008403361347) 100%) , url(../img/bg-main2.jpg);
+    height: 100rem;
+    background-attachment: fixed;
+    background-position: bottom center;
+    background-size: cover;
+    
+}
+.title{
+    display: inline-block;
+    width: 30%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+    padding-left: 12vw;
+
+}    
+.navbar-list{
+    
+    display: inline-block;
+    
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-list ul{
+    font-size: 2.2rem;
+    list-style: none;
+    padding-left: 10vw;
+}
+.navbar-list li{
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.5rem;
+    color: black;
+}
+.navbar-list a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+.main-title{
+    font-family: 'Great Vibes', cursive;
+    text-align: center;
+    font-size: 3.8rem;
+    padding-top: 23rem;
+}
+.navbar{
+    background: linear-gradient(180deg, rgba(70,243,252,0.304079131652661) 0%, rgb(255, 255, 255, 0) 100%);
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+#sentence-middle{
+    font-family: 'Dancing Script', cursive;
+    font-size: 5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#read-button{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-size: 2.7rem;
+    background-color: rgb(0, 102, 255);
+    color: white;
+    padding:4px 9px;
+    border-radius: 1rem;
+}
+#read-button:hover{
+    background-color: rgb(0, 195, 255);
+}
+.basic-info{
+    display: inline-block;
+    float: left;
+    width: 20%;
+    margin-left: 4%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 2rem;
+}
+.icon{
+    background-color: rgb(0, 102, 255);
+    color: white;
+    padding: 1rem;
+    border-radius: 6rem;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.middle-img{
+    margin-top: 1.5rem;
+    width:50%;
+    overflow:hidden;
+    margin:0;
+    height:55rem;
+  }
+.middle-img img{
+    width: 50vw;
+    margin-bottom: -5rem;
+    height: 100%;
+}
+.middle-info{
+    display: inline-block;
+    float: left;
+}
+.middle-text{
+    width: 50%;
+    font-size: 2.2rem;
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.button{
+    text-decoration: none;
+    color: black;
+    border: black 0.2rem solid;
+    padding: 0.4rem;
+    border-radius: 1rem;
+}
+.button:hover{
+    color: black;
+    background-color: rgb(0, 132, 255);
+}
+.middle{
+    margin-top: 3.5rem;
+}
+.photo-gallery{
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    padding: 0;
+}
+.hotel-photos{
+    padding: 2rem;
+}
+.photos{
+    padding: 3rem 0;
+}
+.photo img{
+    width: 23%;
+    float: left;
+    padding: 1%;
+    height: 22rem;
+    transition: 0.3s;
+}
+
+.photo img:hover{
+    filter: brightness(75%);
+}
+.middle-img2{
+    margin-top: 1.5rem;
+    width:50%;
+    overflow:hidden;
+    margin:0;
+    height:55rem;
+  }
+.middle-img2 img{
+    width: 50vw;
+    margin-bottom: -5rem;
+    height: 100%;
+}
+.middle-info2{
+    display: inline-block;
+    float: right;
+}
+.middle-text2{
+    width: 50%;
+    font-size:2.2rem;
+    margin-top: 5rem;
+    font-family: 'Poppins', sans-serif;
+}
+.room-text{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    padding-top: 3rem;
+}
+.room-standart, .room-deluxee, .room-superior{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    padding-left: 2.5%;
+}
+.rooms img{
+    display: block;
+    height: 31rem;
+    width: 100%;
+}
+.info {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    background-color: rgb(0, 195, 255);
+    color: white;
+    padding: 1rem 0;
+    margin: 1.5rem 0;
+    height: 15rem;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+}
+footer{
+    background: linear-gradient(0deg, rgba(0,255,255,1) 0%, rgba(70,243,252,0) 100%);
+
+}
+.footer{
+    position: static;
+    bottom: 0px;
+    height: 20rem;
+    padding-top: 3rem;
+}
+.footer-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2rem;
+    
+}
+.contact{
+    display: inline-block;
+
+}
+.footer-text h4{
+    text-decoration:underline;
+    margin: 1rem 0;
+    padding-top: 3rem;
+}
+.email{
+    font-size: 1.7rem;
+    margin: 0;
+}
+.email a{
+    text-decoration: none;
+    color: black;
+}
+.phone h6{
+    font-size: 1.7rem;
+    margin: 0.2rem 0;
+}
+.icons{
+    display: inline-block;
+    float: right;
+    padding-top: 5rem;
+}
+.instagram, .facebook, .twitter{
+    display: inline-block;
+    padding: 1rem;
+}
+.instagram a, .twitter a, .facebook a{
+    color: black;
+
+}
+
+/* /extra small devices */
+@media (max-width: 600px ){
+    html{
+        font-size: 7px;
+    }    
+    .container{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .main-title{
+        font-size: 3rem;
+    }
+    #sentence-middle{
+        font-size: 2.5rem;
+    }
+    .photo img{
+        display: block;
+        width: 80%;
+        height: auto;
+        padding-left:10% ;
+    }
+    
+    .photos{
+        padding: 2rem 0;
+    }
+    .room-standart, .room-deluxee, .room-superior{
+        display: block;
+        width: 100%;
+        padding-top: 2.5rem;
+    }
+    .basic-info{
+        display: block;
+        width: 70%;
+        padding-left: 15%;
+    }
+    .navbar{
+        background-attachment: local;
+        position: static;
+    }
+    .title{
+        width: auto;
+        padding-left: 2vw;
+    }
+    .navbar-list{
+        padding-right: none
+        ;
+    }
+    .navbar-list ul{
+        padding-left: 0;
+        margin: 0;
+    }
+    .middle-info,.middle-info2{
+        display: block;
+        width: 100%;
+    }
+    .middle-img img,.middle-img2 img{
+        width: 100%;
+    }
+    .contact, .icons{
+        display: block;
+    }
+    .contact, .icons{
+        display: block;
+        text-align: center;
+    }
+    .icons{
+        float: none;
+    }
+    footer{
+        height: 220px;
+    }    
+    .title{
+        width: auto;
+        padding-left: 2vw;
+        text-align: center;
+        display: inline;
+    }
+    .navbar-list{
+        padding-right: none;
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .navbar-list ul{
+        padding-left: 0;
+        margin: 0;
+    }
+
+
+
+    
+}
+/* small devices (large phones or tablets) */
+@media (min-width: 601px) and (max-width:767px){
+    html{
+        font-size: 8px;
+    }
+    .container{
+        width: auto;
+        margin: 0 auto;
+    }
+    .photo img{
+        width: 45%;
+    }
+    .room-standart, .room-deluxee, .room-superior{
+        display: block;
+        width: 70%;
+        padding-left: 15%;
+        padding-top: 2.5rem;
+    }
+    .basic-info{
+        display: block;
+        width: 70%;
+        padding-left: 15%;
+    }
+    .navbar{
+        background-attachment: local;
+        position: static;
+    }
+    .title{
+        width: auto;
+        padding-left: 2vw;
+        text-align: center;
+        display: inline;
+    }
+    .navbar-list{
+        padding-right: none;
+        display: block;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+    }
+    .navbar-list ul{
+        padding-left: 0;
+        margin: 0;
+    }
+    .photo{
+        padding-left: 5%;
+    }
+    .contact, .icons{
+        display: block;
+        text-align: center;
+    }
+    .icons{
+        float: none;
+    }
+    footer{
+        height: 220px;
+    }
+}
+/* medium devices */
+@media (min-width: 768px) and (max-width:991px){
+    html{
+        font-size: 9px;
+    }
+    .container{
+        width: 80%;
+    }
+    .navbar{
+        position: static;
+    }
+    .photo{
+        padding-left: 5%;
+    }
+    .photo img{
+        width: 45%;
+    }
+    .photo div{
+        margin: 0 auto;
+    }
+    .room-standart, .room-deluxee, .room-superior{
+        display: block;
+        width: 70%;
+        padding-left: 15%;
+        padding-top: 2.5rem;
+    }
+}
+/* large devices (laptop etc.) */
+
+@media (min-width:992px) and (max-width: 1200px) {
+    html{
+        font-size: 9px
+    }
+    .container{
+        width: 80%;
+    }
+    .navbar{
+        position: static;
+    }
+    .photo{
+        padding-left: 5%;
+    }
+    .photo img{
+        width: 45%;
+    }
+    .photo div{
+        margin: 0 auto;
+    }
+    .container{
+        width: 90%;
+    }
+}
