@@ -1,2 +1,2 @@
 # Bece-Hotel
-DEMO: https://bunyamink2.github.io/Bece-Hotel/
+DEMO: https://bunyaminkorkut.github.io/Bece-Hotel/
